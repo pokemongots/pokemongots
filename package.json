@@ -1,0 +1,23 @@
+{
+  "name": "pokemongots",
+  "version": "0.1.0",
+  "description": "A Pokémon GO library written in TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokemongots/pokemongots.git"
+  },
+  "author": "",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/pokemongots/pokemongots/issues"
+  },
+  "homepage": "https://github.com/pokemongots/pokemongots#readme",
+  "devDependencies": {
+    "@types/node": "^16.7.1",
+    "typescript": "^4.3.5"
+  }
+}
