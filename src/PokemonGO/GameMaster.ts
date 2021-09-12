@@ -9,6 +9,14 @@ export default class GameMaster {
     this.array = array;
   }
 
+  static normalizeType(type: string) {
+    return type.replace(/^POKEMON_TYPE_/, '').toLowerCase();
+  }
+
+  static normalizeFastMove(move: string) {
+    return move.replace(/_FAST$/, '');
+  }
+
   // The content of GAME_MASTER.json is an array of objects called "templates" that contain various information
   // (uniquely identified by the `templateId' property value).
   //
@@ -16,36 +24,26 @@ export default class GameMaster {
   // the corresponding four-digit National Pokédex number padded with leading zeros). These objects have a `templateId'
   // property and a `data' property, and the `data.pokemonSettings' property contains substantial Pokémon information.
   //
-  // The `getPokemonData' method extracts the Pokémon data and reconstructs it into an object with the `templateId'
-  // property value as the key and the `data.pokemonSettings' property value as the value, and returns it.
-  getPokemonData(): { [key: string]: any } {
-    return Object.fromEntries(
-      this.array
-        .filter(
-          ({ templateId, data }) =>
-            /^V\d+_POKEMON_/.test(templateId) &&
-            // Exclude objects that do not have a `pokemonSettings' property in the `data' property. This will exclude
-            // "_HOME_REVERSION" things.
-            'pokemonSettings' in data,
-        )
-        .map(({ templateId, data }) => [templateId, data.pokemonSettings]),
-    );
-  }
-
   // For battle simulation purposes, Pokémon of the same species (number) with the same type, stats, and moveset (such
   // as different Deerling forms) should be considered identical.
   //
-  // The `getBattlePokemonData' method extracts the number, type, stats, and moveset from the object returned by the
-  // `getPokemonData' method, and returns a reconstructed object with the `pokemonId' property value as a key. If there
-  // are other entries with the same data, only one of them is preserved. If there are other entries with the same
-  // `pokemonId' property value but different data, the `form' property value is used as a key.
-  getBattlePokemonData() {
-    const pokemonData: { [key: string]: any } = {};
+  // The `getAllPokemon' method returns an object with the `pokemonId' property value as keys and an object containing
+  // the above information as values.
+  //
+  // If there are other entries with the same data, only one of them is preserved.
+  //
+  // If there are other entries with the same `pokemonId' property value but different data, the `form' property value
+  // is used as a key.
+  getAllPokemon() {
+    const allPokemon: { [key: string]: any } = {};
 
-    Object.entries(this.getPokemonData()).forEach(
-      ([
-        templateId,
-        {
+    this.array.forEach(({ templateId, data }) => {
+      const matches = templateId.match(/^V(\d+)_POKEMON_/);
+
+      // Exclude objects that do not have a `pokemonSettings' property in the `data' property. This will exclude
+      // "_HOME_REVERSION" things.
+      if (matches && 'pokemonSettings' in data) {
+        const {
           pokemonId,
           form,
           type,
@@ -55,9 +53,7 @@ export default class GameMaster {
           eliteQuickMove,
           cinematicMoves,
           eliteCinematicMove,
-        },
-      ]) => {
-        const matches = templateId.match(/^V(\d+)_POKEMON_/);
+        } = data.pokemonSettings;
 
         const entry: { [key: string]: any } = {
           // @ts-ignore: Object is possibly 'null'.
@@ -65,16 +61,14 @@ export default class GameMaster {
           type: new Set(
             [type, type2]
               .filter((x) => x != null)
-              .map((x: string) =>
-                x.replace(/^POKEMON_TYPE_/, '').toLowerCase(),
-              ),
+              .map(GameMaster.normalizeType),
           ),
           ...stats,
           fastMoves: new Set(
             []
               .concat(quickMoves, eliteQuickMove)
               .filter((x) => x != null)
-              .map((x: string) => x.replace(/_FAST$/, '')),
+              .map(GameMaster.normalizeFastMove),
           ),
           chargeMoves: new Set(
             []
@@ -83,16 +77,40 @@ export default class GameMaster {
           ),
         };
 
-        if (pokemonId in pokemonData) {
-          if (!util.isDeepStrictEqual(pokemonData[pokemonId], entry)) {
-            pokemonData[form] = entry;
+        if (pokemonId in allPokemon) {
+          // If there is a template with the same `pokemonId' but different from the existing data, the `form' property
+          // value is used as a key. If it is equal to the existing data, discard it.
+          if (!util.isDeepStrictEqual(allPokemon[pokemonId], entry)) {
+            allPokemon[form] = entry;
           }
         } else {
-          pokemonData[pokemonId] = entry;
+          allPokemon[pokemonId] = entry;
         }
-      },
-    );
+      }
+    });
 
-    return pokemonData;
+    return allPokemon;
+  }
+
+  getAllMoves() {
+    return Object.fromEntries(
+      this.array
+        .filter(({ templateId }) => /^COMBAT_V\d+_MOVE_/.test(templateId))
+        .map(({ data }) => {
+          const { uniqueId, type, power, durationTurns, energyDelta, buffs } =
+            data.combatMove;
+
+          return [
+            GameMaster.normalizeFastMove(uniqueId),
+            {
+              type: GameMaster.normalizeType(type),
+              power,
+              durationTurns,
+              energyDelta,
+              ...buffs,
+            },
+          ];
+        }),
+    );
   }
 }

@@ -1,0 +1,1327 @@
+{
+  "WRAP": {
+    "type": "normal",
+    "power": 60,
+    "energyDelta": -45
+  },
+  "HYPER_BEAM": {
+    "type": "normal",
+    "power": 150,
+    "energyDelta": -80
+  },
+  "DARK_PULSE": {
+    "type": "dark",
+    "power": 80,
+    "energyDelta": -50
+  },
+  "SLUDGE": {
+    "type": "poison",
+    "power": 50,
+    "energyDelta": -40
+  },
+  "VICE_GRIP": {
+    "type": "normal",
+    "power": 40,
+    "energyDelta": -40
+  },
+  "FLAME_WHEEL": {
+    "type": "fire",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "MEGAHORN": {
+    "type": "bug",
+    "power": 100,
+    "energyDelta": -55
+  },
+  "FLAMETHROWER": {
+    "type": "fire",
+    "power": 90,
+    "energyDelta": -55
+  },
+  "DIG": {
+    "type": "ground",
+    "power": 100,
+    "energyDelta": -80
+  },
+  "CROSS_CHOP": {
+    "type": "fighting",
+    "power": 50,
+    "energyDelta": -35
+  },
+  "PSYBEAM": {
+    "type": "psychic",
+    "power": 70,
+    "energyDelta": -60
+  },
+  "EARTHQUAKE": {
+    "type": "ground",
+    "power": 120,
+    "energyDelta": -65
+  },
+  "STONE_EDGE": {
+    "type": "rock",
+    "power": 100,
+    "energyDelta": -55
+  },
+  "ICE_PUNCH": {
+    "type": "ice",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "HEART_STAMP": {
+    "type": "psychic",
+    "power": 40,
+    "energyDelta": -40
+  },
+  "DISCHARGE": {
+    "type": "electric",
+    "power": 65,
+    "energyDelta": -45
+  },
+  "FLASH_CANNON": {
+    "type": "steel",
+    "power": 110,
+    "energyDelta": -70
+  },
+  "DRILL_PECK": {
+    "type": "flying",
+    "power": 65,
+    "energyDelta": -40
+  },
+  "ICE_BEAM": {
+    "type": "ice",
+    "power": 90,
+    "energyDelta": -55
+  },
+  "BLIZZARD": {
+    "type": "ice",
+    "power": 140,
+    "energyDelta": -75
+  },
+  "HEAT_WAVE": {
+    "type": "fire",
+    "power": 95,
+    "energyDelta": -75
+  },
+  "AERIAL_ACE": {
+    "type": "flying",
+    "power": 55,
+    "energyDelta": -45
+  },
+  "DRILL_RUN": {
+    "type": "ground",
+    "power": 80,
+    "energyDelta": -45
+  },
+  "PETAL_BLIZZARD": {
+    "type": "grass",
+    "power": 110,
+    "energyDelta": -65
+  },
+  "MEGA_DRAIN": {
+    "type": "grass",
+    "power": 25,
+    "energyDelta": -55
+  },
+  "BUG_BUZZ": {
+    "type": "bug",
+    "power": 90,
+    "energyDelta": -60,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.3
+  },
+  "POISON_FANG": {
+    "type": "poison",
+    "power": 40,
+    "energyDelta": -35,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "NIGHT_SLASH": {
+    "type": "dark",
+    "power": 50,
+    "energyDelta": -35,
+    "attackerAttackStatStageChange": 2,
+    "buffActivationChance": 0.125
+  },
+  "BUBBLE_BEAM": {
+    "type": "water",
+    "power": 25,
+    "energyDelta": -40,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "SUBMISSION": {
+    "type": "fighting",
+    "power": 60,
+    "energyDelta": -50
+  },
+  "LOW_SWEEP": {
+    "type": "fighting",
+    "power": 40,
+    "energyDelta": -40
+  },
+  "AQUA_JET": {
+    "type": "water",
+    "power": 45,
+    "energyDelta": -45
+  },
+  "AQUA_TAIL": {
+    "type": "water",
+    "power": 50,
+    "energyDelta": -35
+  },
+  "SEED_BOMB": {
+    "type": "grass",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "PSYSHOCK": {
+    "type": "psychic",
+    "power": 70,
+    "energyDelta": -45
+  },
+  "ANCIENT_POWER": {
+    "type": "rock",
+    "power": 45,
+    "energyDelta": -45,
+    "attackerAttackStatStageChange": 2,
+    "attackerDefenseStatStageChange": 2,
+    "buffActivationChance": 0.1
+  },
+  "ROCK_TOMB": {
+    "type": "rock",
+    "power": 70,
+    "energyDelta": -60
+  },
+  "ROCK_SLIDE": {
+    "type": "rock",
+    "power": 75,
+    "energyDelta": -45
+  },
+  "POWER_GEM": {
+    "type": "rock",
+    "power": 80,
+    "energyDelta": -60
+  },
+  "SHADOW_SNEAK": {
+    "type": "ghost",
+    "power": 50,
+    "energyDelta": -45
+  },
+  "SHADOW_PUNCH": {
+    "type": "ghost",
+    "power": 40,
+    "energyDelta": -35
+  },
+  "OMINOUS_WIND": {
+    "type": "ghost",
+    "power": 45,
+    "energyDelta": -45,
+    "attackerAttackStatStageChange": 2,
+    "attackerDefenseStatStageChange": 2,
+    "buffActivationChance": 0.1
+  },
+  "SHADOW_BALL": {
+    "type": "ghost",
+    "power": 100,
+    "energyDelta": -55
+  },
+  "MAGNET_BOMB": {
+    "type": "steel",
+    "power": 70,
+    "energyDelta": -45
+  },
+  "IRON_HEAD": {
+    "type": "steel",
+    "power": 70,
+    "energyDelta": -50
+  },
+  "PARABOLIC_CHARGE": {
+    "type": "electric",
+    "power": 25,
+    "energyDelta": -55
+  },
+  "THUNDER_PUNCH": {
+    "type": "electric",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "THUNDER": {
+    "type": "electric",
+    "power": 100,
+    "energyDelta": -60
+  },
+  "THUNDERBOLT": {
+    "type": "electric",
+    "power": 90,
+    "energyDelta": -55
+  },
+  "TWISTER": {
+    "type": "dragon",
+    "power": 45,
+    "energyDelta": -45
+  },
+  "DRAGON_PULSE": {
+    "type": "dragon",
+    "power": 90,
+    "energyDelta": -60
+  },
+  "DRAGON_CLAW": {
+    "type": "dragon",
+    "power": 50,
+    "energyDelta": -35
+  },
+  "DISARMING_VOICE": {
+    "type": "fairy",
+    "power": 70,
+    "energyDelta": -45
+  },
+  "DRAINING_KISS": {
+    "type": "fairy",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "DAZZLING_GLEAM": {
+    "type": "fairy",
+    "power": 110,
+    "energyDelta": -70
+  },
+  "MOONBLAST": {
+    "type": "fairy",
+    "power": 110,
+    "energyDelta": -60,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 0.1
+  },
+  "PLAY_ROUGH": {
+    "type": "fairy",
+    "power": 90,
+    "energyDelta": -60
+  },
+  "CROSS_POISON": {
+    "type": "poison",
+    "power": 50,
+    "energyDelta": -35,
+    "attackerAttackStatStageChange": 2,
+    "buffActivationChance": 0.125
+  },
+  "SLUDGE_BOMB": {
+    "type": "poison",
+    "power": 80,
+    "energyDelta": -50
+  },
+  "SLUDGE_WAVE": {
+    "type": "poison",
+    "power": 110,
+    "energyDelta": -65
+  },
+  "GUNK_SHOT": {
+    "type": "poison",
+    "power": 130,
+    "energyDelta": -75
+  },
+  "BONE_CLUB": {
+    "type": "ground",
+    "power": 40,
+    "energyDelta": -35
+  },
+  "BULLDOZE": {
+    "type": "ground",
+    "power": 80,
+    "energyDelta": -60
+  },
+  "MUD_BOMB": {
+    "type": "ground",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "SIGNAL_BEAM": {
+    "type": "bug",
+    "power": 75,
+    "energyDelta": -55,
+    "targetAttackStatStageChange": -1,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.2
+  },
+  "X_SCISSOR": {
+    "type": "bug",
+    "power": 45,
+    "energyDelta": -35
+  },
+  "FLAME_CHARGE": {
+    "type": "fire",
+    "power": 65,
+    "energyDelta": -50,
+    "attackerAttackStatStageChange": 1,
+    "buffActivationChance": 1
+  },
+  "FLAME_BURST": {
+    "type": "fire",
+    "power": 70,
+    "energyDelta": -55
+  },
+  "FIRE_BLAST": {
+    "type": "fire",
+    "power": 140,
+    "energyDelta": -80
+  },
+  "BRINE": {
+    "type": "water",
+    "power": 60,
+    "energyDelta": -50
+  },
+  "WATER_PULSE": {
+    "type": "water",
+    "power": 70,
+    "energyDelta": -60
+  },
+  "SCALD": {
+    "type": "water",
+    "power": 80,
+    "energyDelta": -60
+  },
+  "HYDRO_PUMP": {
+    "type": "water",
+    "power": 130,
+    "energyDelta": -75
+  },
+  "PSYCHIC": {
+    "type": "psychic",
+    "power": 90,
+    "energyDelta": -55,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.1
+  },
+  "PSYSTRIKE": {
+    "type": "psychic",
+    "power": 90,
+    "energyDelta": -45
+  },
+  "ICY_WIND": {
+    "type": "ice",
+    "power": 60,
+    "energyDelta": -45,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "GIGA_DRAIN": {
+    "type": "grass",
+    "power": 50,
+    "energyDelta": -80
+  },
+  "FIRE_PUNCH": {
+    "type": "fire",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "SOLAR_BEAM": {
+    "type": "grass",
+    "power": 150,
+    "energyDelta": -80
+  },
+  "LEAF_BLADE": {
+    "type": "grass",
+    "power": 70,
+    "energyDelta": -35
+  },
+  "POWER_WHIP": {
+    "type": "grass",
+    "power": 90,
+    "energyDelta": -50
+  },
+  "AIR_CUTTER": {
+    "type": "flying",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "HURRICANE": {
+    "type": "flying",
+    "power": 110,
+    "energyDelta": -65
+  },
+  "BRICK_BREAK": {
+    "type": "fighting",
+    "power": 40,
+    "energyDelta": -35
+  },
+  "SWIFT": {
+    "type": "normal",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "HORN_ATTACK": {
+    "type": "normal",
+    "power": 40,
+    "energyDelta": -35
+  },
+  "STOMP": {
+    "type": "normal",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "HYPER_FANG": {
+    "type": "normal",
+    "power": 80,
+    "energyDelta": -50
+  },
+  "BODY_SLAM": {
+    "type": "normal",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "REST": {
+    "type": "normal",
+    "power": 50,
+    "energyDelta": -35
+  },
+  "STRUGGLE": {
+    "type": "normal",
+    "power": 35,
+    "energyDelta": -100
+  },
+  "SCALD_BLASTOISE": {
+    "type": "water",
+    "power": 50,
+    "energyDelta": -80
+  },
+  "HYDRO_PUMP_BLASTOISE": {
+    "type": "water",
+    "power": 90,
+    "energyDelta": -80
+  },
+  "WRAP_GREEN": {
+    "type": "normal",
+    "power": 25,
+    "energyDelta": -45
+  },
+  "WRAP_PINK": {
+    "type": "normal",
+    "power": 25,
+    "energyDelta": -45
+  },
+  "FURY_CUTTER": {
+    "type": "bug",
+    "power": 2,
+    "energyDelta": 4
+  },
+  "BUG_BITE": {
+    "type": "bug",
+    "power": 3,
+    "energyDelta": 3
+  },
+  "BITE": {
+    "type": "dark",
+    "power": 4,
+    "energyDelta": 2
+  },
+  "SUCKER_PUNCH": {
+    "type": "dark",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "DRAGON_BREATH": {
+    "type": "dragon",
+    "power": 4,
+    "energyDelta": 3
+  },
+  "THUNDER_SHOCK": {
+    "type": "electric",
+    "power": 3,
+    "durationTurns": 1,
+    "energyDelta": 9
+  },
+  "SPARK": {
+    "type": "electric",
+    "power": 4,
+    "durationTurns": 1,
+    "energyDelta": 8
+  },
+  "LOW_KICK": {
+    "type": "fighting",
+    "power": 4,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "KARATE_CHOP": {
+    "type": "fighting",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 8
+  },
+  "EMBER": {
+    "type": "fire",
+    "power": 7,
+    "durationTurns": 1,
+    "energyDelta": 6
+  },
+  "WING_ATTACK": {
+    "type": "flying",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "PECK": {
+    "type": "flying",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "LICK": {
+    "type": "ghost",
+    "power": 3,
+    "energyDelta": 3
+  },
+  "SHADOW_CLAW": {
+    "type": "ghost",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 8
+  },
+  "VINE_WHIP": {
+    "type": "grass",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 8
+  },
+  "RAZOR_LEAF": {
+    "type": "grass",
+    "power": 10,
+    "durationTurns": 1,
+    "energyDelta": 4
+  },
+  "MUD_SHOT": {
+    "type": "ground",
+    "power": 3,
+    "durationTurns": 1,
+    "energyDelta": 9
+  },
+  "ICE_SHARD": {
+    "type": "ice",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 10
+  },
+  "FROST_BREATH": {
+    "type": "ice",
+    "power": 7,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "QUICK_ATTACK": {
+    "type": "normal",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "SCRATCH": {
+    "type": "normal",
+    "power": 4,
+    "energyDelta": 2
+  },
+  "TACKLE": {
+    "type": "normal",
+    "power": 3,
+    "energyDelta": 2
+  },
+  "POUND": {
+    "type": "normal",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 4
+  },
+  "CUT": {
+    "type": "normal",
+    "power": 3,
+    "energyDelta": 2
+  },
+  "POISON_JAB": {
+    "type": "poison",
+    "power": 7,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "ACID": {
+    "type": "poison",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "PSYCHO_CUT": {
+    "type": "psychic",
+    "power": 3,
+    "durationTurns": 1,
+    "energyDelta": 9
+  },
+  "ROCK_THROW": {
+    "type": "rock",
+    "power": 8,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "METAL_CLAW": {
+    "type": "steel",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 6
+  },
+  "BULLET_PUNCH": {
+    "type": "steel",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "WATER_GUN": {
+    "type": "water",
+    "power": 3,
+    "energyDelta": 3
+  },
+  "SPLASH": {
+    "type": "water",
+    "durationTurns": 3,
+    "energyDelta": 12
+  },
+  "WATER_GUN_FAST_BLASTOISE": {
+    "type": "water",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 4
+  },
+  "MUD_SLAP": {
+    "type": "ground",
+    "power": 11,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "ZEN_HEADBUTT": {
+    "type": "psychic",
+    "power": 8,
+    "durationTurns": 2,
+    "energyDelta": 6
+  },
+  "CONFUSION": {
+    "type": "psychic",
+    "power": 16,
+    "durationTurns": 3,
+    "energyDelta": 12
+  },
+  "POISON_STING": {
+    "type": "poison",
+    "power": 3,
+    "durationTurns": 1,
+    "energyDelta": 9
+  },
+  "BUBBLE": {
+    "type": "water",
+    "power": 7,
+    "durationTurns": 2,
+    "energyDelta": 11
+  },
+  "FEINT_ATTACK": {
+    "type": "dark",
+    "power": 6,
+    "durationTurns": 1,
+    "energyDelta": 6
+  },
+  "STEEL_WING": {
+    "type": "steel",
+    "power": 7,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "FIRE_FANG": {
+    "type": "fire",
+    "power": 8,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "ROCK_SMASH": {
+    "type": "fighting",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 7
+  },
+  "TRANSFORM": {
+    "type": "normal",
+    "durationTurns": 2
+  },
+  "COUNTER": {
+    "type": "fighting",
+    "power": 8,
+    "durationTurns": 1,
+    "energyDelta": 7
+  },
+  "POWDER_SNOW": {
+    "type": "ice",
+    "power": 5,
+    "durationTurns": 1,
+    "energyDelta": 8
+  },
+  "CLOSE_COMBAT": {
+    "type": "fighting",
+    "power": 100,
+    "energyDelta": -45,
+    "attackerDefenseStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "DYNAMIC_PUNCH": {
+    "type": "fighting",
+    "power": 90,
+    "energyDelta": -50
+  },
+  "FOCUS_BLAST": {
+    "type": "fighting",
+    "power": 150,
+    "energyDelta": -75
+  },
+  "AURORA_BEAM": {
+    "type": "ice",
+    "power": 80,
+    "energyDelta": -60
+  },
+  "CHARGE_BEAM": {
+    "type": "electric",
+    "power": 5,
+    "durationTurns": 2,
+    "energyDelta": 11
+  },
+  "VOLT_SWITCH": {
+    "type": "electric",
+    "power": 12,
+    "durationTurns": 3,
+    "energyDelta": 16
+  },
+  "WILD_CHARGE": {
+    "type": "electric",
+    "power": 100,
+    "energyDelta": -45,
+    "attackerDefenseStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "ZAP_CANNON": {
+    "type": "electric",
+    "power": 150,
+    "energyDelta": -80
+  },
+  "DRAGON_TAIL": {
+    "type": "dragon",
+    "power": 13,
+    "durationTurns": 2,
+    "energyDelta": 9
+  },
+  "AVALANCHE": {
+    "type": "ice",
+    "power": 90,
+    "energyDelta": -45
+  },
+  "AIR_SLASH": {
+    "type": "flying",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 9
+  },
+  "BRAVE_BIRD": {
+    "type": "flying",
+    "power": 130,
+    "energyDelta": -55,
+    "attackerDefenseStatStageChange": -3,
+    "buffActivationChance": 1
+  },
+  "SKY_ATTACK": {
+    "type": "flying",
+    "power": 75,
+    "energyDelta": -45
+  },
+  "SAND_TOMB": {
+    "type": "ground",
+    "power": 25,
+    "energyDelta": -40,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "ROCK_BLAST": {
+    "type": "rock",
+    "power": 50,
+    "energyDelta": -40
+  },
+  "INFESTATION": {
+    "type": "bug",
+    "power": 6,
+    "durationTurns": 2,
+    "energyDelta": 12
+  },
+  "STRUGGLE_BUG": {
+    "type": "bug",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "SILVER_WIND": {
+    "type": "bug",
+    "power": 45,
+    "energyDelta": -45,
+    "attackerAttackStatStageChange": 2,
+    "attackerDefenseStatStageChange": 2,
+    "buffActivationChance": 0.1
+  },
+  "ASTONISH": {
+    "type": "ghost",
+    "power": 5,
+    "durationTurns": 2,
+    "energyDelta": 9
+  },
+  "HEX": {
+    "type": "ghost",
+    "power": 6,
+    "durationTurns": 2,
+    "energyDelta": 12
+  },
+  "NIGHT_SHADE": {
+    "type": "ghost",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "IRON_TAIL": {
+    "type": "steel",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 6
+  },
+  "GYRO_BALL": {
+    "type": "steel",
+    "power": 80,
+    "energyDelta": -60
+  },
+  "HEAVY_SLAM": {
+    "type": "steel",
+    "power": 70,
+    "energyDelta": -50
+  },
+  "FIRE_SPIN": {
+    "type": "fire",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 10
+  },
+  "OVERHEAT": {
+    "type": "fire",
+    "power": 130,
+    "energyDelta": -55,
+    "attackerAttackStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "BULLET_SEED": {
+    "type": "grass",
+    "power": 5,
+    "durationTurns": 2,
+    "energyDelta": 13
+  },
+  "GRASS_KNOT": {
+    "type": "grass",
+    "power": 90,
+    "energyDelta": -50
+  },
+  "ENERGY_BALL": {
+    "type": "grass",
+    "power": 90,
+    "energyDelta": -55,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.1
+  },
+  "EXTRASENSORY": {
+    "type": "psychic",
+    "power": 8,
+    "durationTurns": 2,
+    "energyDelta": 10
+  },
+  "FUTURESIGHT": {
+    "type": "psychic",
+    "power": 120,
+    "energyDelta": -65
+  },
+  "MIRROR_COAT": {
+    "type": "psychic",
+    "power": 60,
+    "energyDelta": -55
+  },
+  "OUTRAGE": {
+    "type": "dragon",
+    "power": 110,
+    "energyDelta": -60
+  },
+  "SNARL": {
+    "type": "dark",
+    "power": 5,
+    "durationTurns": 2,
+    "energyDelta": 13
+  },
+  "CRUNCH": {
+    "type": "dark",
+    "power": 70,
+    "energyDelta": -45
+  },
+  "FOUL_PLAY": {
+    "type": "dark",
+    "power": 70,
+    "energyDelta": -45
+  },
+  "HIDDEN_POWER": {
+    "type": "normal",
+    "power": 9,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "TAKE_DOWN": {
+    "type": "normal",
+    "power": 5,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "WATERFALL": {
+    "type": "water",
+    "power": 12,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "SURF": {
+    "type": "water",
+    "power": 65,
+    "energyDelta": -40
+  },
+  "DRACO_METEOR": {
+    "type": "dragon",
+    "power": 150,
+    "energyDelta": -65,
+    "attackerAttackStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "DOOM_DESIRE": {
+    "type": "steel",
+    "power": 75,
+    "energyDelta": -40
+  },
+  "YAWN": {
+    "type": "normal",
+    "durationTurns": 3,
+    "energyDelta": 12
+  },
+  "PSYCHO_BOOST": {
+    "type": "psychic",
+    "power": 70,
+    "energyDelta": -35,
+    "attackerAttackStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "ORIGIN_PULSE": {
+    "type": "water",
+    "power": 130,
+    "energyDelta": -60
+  },
+  "PRECIPICE_BLADES": {
+    "type": "ground",
+    "power": 130,
+    "energyDelta": -60
+  },
+  "PRESENT": {
+    "type": "normal",
+    "power": 3,
+    "durationTurns": 2,
+    "energyDelta": 12
+  },
+  "WEATHER_BALL_FIRE": {
+    "type": "fire",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "WEATHER_BALL_ICE": {
+    "type": "ice",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "WEATHER_BALL_ROCK": {
+    "type": "rock",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "WEATHER_BALL_WATER": {
+    "type": "water",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "FRENZY_PLANT": {
+    "type": "grass",
+    "power": 100,
+    "energyDelta": -45
+  },
+  "SMACK_DOWN": {
+    "type": "rock",
+    "power": 12,
+    "durationTurns": 2,
+    "energyDelta": 8
+  },
+  "BLAST_BURN": {
+    "type": "fire",
+    "power": 110,
+    "energyDelta": -50
+  },
+  "HYDRO_CANNON": {
+    "type": "water",
+    "power": 80,
+    "energyDelta": -40
+  },
+  "LAST_RESORT": {
+    "type": "normal",
+    "power": 90,
+    "energyDelta": -55
+  },
+  "METEOR_MASH": {
+    "type": "steel",
+    "power": 100,
+    "energyDelta": -50
+  },
+  "SKULL_BASH": {
+    "type": "normal",
+    "power": 130,
+    "energyDelta": -75,
+    "attackerDefenseStatStageChange": 1,
+    "buffActivationChance": 1
+  },
+  "ACID_SPRAY": {
+    "type": "poison",
+    "power": 20,
+    "energyDelta": -45,
+    "targetDefenseStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "EARTH_POWER": {
+    "type": "ground",
+    "power": 90,
+    "energyDelta": -55,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.1
+  },
+  "CRABHAMMER": {
+    "type": "water",
+    "power": 85,
+    "energyDelta": -50,
+    "attackerAttackStatStageChange": 2,
+    "buffActivationChance": 0.125
+  },
+  "LUNGE": {
+    "type": "bug",
+    "power": 60,
+    "energyDelta": -45,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "OCTAZOOKA": {
+    "type": "water",
+    "power": 50,
+    "energyDelta": -50,
+    "targetAttackStatStageChange": -2,
+    "buffActivationChance": 0.5
+  },
+  "MIRROR_SHOT": {
+    "type": "steel",
+    "power": 35,
+    "energyDelta": -35,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 0.3
+  },
+  "SUPER_POWER": {
+    "type": "fighting",
+    "power": 85,
+    "energyDelta": -40,
+    "attackerAttackStatStageChange": -1,
+    "attackerDefenseStatStageChange": -1,
+    "buffActivationChance": 1
+  },
+  "FELL_STINGER": {
+    "type": "bug",
+    "power": 20,
+    "energyDelta": -35,
+    "attackerAttackStatStageChange": 1,
+    "buffActivationChance": 1
+  },
+  "LEAF_TORNADO": {
+    "type": "grass",
+    "power": 45,
+    "energyDelta": -40,
+    "targetAttackStatStageChange": -2,
+    "buffActivationChance": 0.5
+  },
+  "SHADOW_BONE": {
+    "type": "ghost",
+    "power": 75,
+    "energyDelta": -45,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.2
+  },
+  "MUDDY_WATER": {
+    "type": "water",
+    "power": 35,
+    "energyDelta": -35,
+    "targetAttackStatStageChange": -1,
+    "buffActivationChance": 0.3
+  },
+  "BLAZE_KICK": {
+    "type": "fire",
+    "power": 55,
+    "energyDelta": -40
+  },
+  "POWER_UP_PUNCH": {
+    "type": "fighting",
+    "power": 20,
+    "energyDelta": -35,
+    "attackerAttackStatStageChange": 1,
+    "buffActivationChance": 1
+  },
+  "CHARM": {
+    "type": "fairy",
+    "power": 16,
+    "durationTurns": 2,
+    "energyDelta": 6
+  },
+  "GIGA_IMPACT": {
+    "type": "normal",
+    "power": 150,
+    "energyDelta": -80
+  },
+  "FRUSTRATION": {
+    "type": "normal",
+    "power": 10,
+    "energyDelta": -70
+  },
+  "RETURN": {
+    "type": "normal",
+    "power": 130,
+    "energyDelta": -70
+  },
+  "SYNCHRONOISE": {
+    "type": "psychic",
+    "power": 80,
+    "energyDelta": -50
+  },
+  "LOCK_ON": {
+    "type": "normal",
+    "power": 1,
+    "energyDelta": 5
+  },
+  "THUNDER_FANG": {
+    "type": "electric",
+    "power": 8,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "ICE_FANG": {
+    "type": "ice",
+    "power": 8,
+    "durationTurns": 1,
+    "energyDelta": 5
+  },
+  "SACRED_SWORD": {
+    "type": "fighting",
+    "power": 60,
+    "energyDelta": -35
+  },
+  "FLYING_PRESS": {
+    "type": "fighting",
+    "power": 90,
+    "energyDelta": -40
+  },
+  "AURA_SPHERE": {
+    "type": "fighting",
+    "power": 100,
+    "energyDelta": -55
+  },
+  "PAYBACK": {
+    "type": "dark",
+    "power": 110,
+    "energyDelta": -60
+  },
+  "ROCK_WRECKER": {
+    "type": "rock",
+    "power": 110,
+    "energyDelta": -50
+  },
+  "AEROBLAST": {
+    "type": "flying",
+    "power": 170,
+    "energyDelta": -75,
+    "attackerAttackStatStageChange": 2,
+    "buffActivationChance": 0.125
+  },
+  "TECHNO_BLAST_NORMAL": {
+    "type": "normal",
+    "power": 120,
+    "energyDelta": -55
+  },
+  "TECHNO_BLAST_BURN": {
+    "type": "fire",
+    "power": 120,
+    "energyDelta": -55
+  },
+  "TECHNO_BLAST_CHILL": {
+    "type": "ice",
+    "power": 120,
+    "energyDelta": -55
+  },
+  "TECHNO_BLAST_WATER": {
+    "type": "water",
+    "power": 120,
+    "energyDelta": -55
+  },
+  "TECHNO_BLAST_SHOCK": {
+    "type": "electric",
+    "power": 120,
+    "energyDelta": -55
+  },
+  "FLY": {
+    "type": "flying",
+    "power": 80,
+    "energyDelta": -45
+  },
+  "V_CREATE": {
+    "type": "fire",
+    "power": 95,
+    "energyDelta": -40,
+    "attackerDefenseStatStageChange": -3,
+    "buffActivationChance": 1
+  },
+  "LEAF_STORM": {
+    "type": "grass",
+    "power": 130,
+    "energyDelta": -55,
+    "attackerAttackStatStageChange": -2,
+    "buffActivationChance": 1
+  },
+  "TRI_ATTACK": {
+    "type": "normal",
+    "power": 65,
+    "energyDelta": -50,
+    "targetAttackStatStageChange": -1,
+    "targetDefenseStatStageChange": -1,
+    "buffActivationChance": 0.5
+  },
+  "GUST": {
+    "type": "flying",
+    "power": 16,
+    "durationTurns": 3,
+    "energyDelta": 12
+  },
+  "INCINERATE": {
+    "type": "fire",
+    "power": 15,
+    "durationTurns": 4,
+    "energyDelta": 20
+  },
+  "FEATHER_DANCE": {
+    "type": "flying",
+    "power": 35,
+    "energyDelta": -45,
+    "targetAttackStatStageChange": -2,
+    "buffActivationChance": 1
+  }
+}
